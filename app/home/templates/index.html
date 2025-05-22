@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Home - Flask Modular</title>
+    <link rel="stylesheet" href="{{ url_for('home.static', filename='css/main.css') }}">
+</head>
+<body>
+    <div id="index_upper_menu_container">
+        {% include 'include/upper_menu_not_logged.html' %}
+    <div>
+    <h1>Bem-vindo ao projeto Flask com Blueprints por módulos!</h1>
+</body>
+</html>
